@@ -1,0 +1,33 @@
+/* 1. Selektor Kelas */
+.judul-utama {
+    color: darkblue;
+    text-align: center;
+}
+
+/* 2. Selektor ID */
+#paragraf-satu {
+    font-size: 1.2em;
+    font-style: italic;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* 3. Selektor Atribut */
+a[target="_blank"] {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 4. Pseudo-class Selector */
+a[target="_blank"]:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+/* 5. Pseudo-element Selector */
+.intro::first-line {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
